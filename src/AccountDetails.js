@@ -170,11 +170,11 @@ const AccountDetails = () => {
               ></textarea>
             </div>
             <div className="d-flex px-4">
-              <button type="button" className="button-ext col-5 p-1 my-4">
+              <button type="button" className="button_ext col-5 p-1 my-4">
                 Exit
               </button>
               <span className="col-2"></span>
-              <button type="submit" className="button-nxt col-5 p-1 my-4">
+              <button type="submit" className="button_nxt col-5 p-1 my-4">
                 Next
               </button>
             </div>

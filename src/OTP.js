@@ -27,13 +27,13 @@ const OTP = () => {
               />
             </div>
             <div className="col-12 text-center pt-5 px-4">
-              <button type="submit" className="button-nxt col-11 p-1">
+              <button type="submit" className="button_nxt col-11 p-1">
                 <img src={Signup} alt="sign-up" style={{ width: "8%" }} />{" "}
                 &nbsp;&nbsp; SUBMIT
               </button>
             </div>
             <div className="col-12 text-center pt-2 px-4">
-              <button type="button" className="button-ext col-11 p-1 my-4">
+              <button type="button" className="button_ext col-11 p-1 my-4">
                 <img src={Back} alt="back" /> &nbsp;&nbsp; CANCEL
               </button>
             </div>

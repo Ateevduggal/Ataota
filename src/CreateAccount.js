@@ -67,7 +67,7 @@ const CreateAccount = () => {
                 &nbsp;&nbsp; SIGN UP
               </button>
             </div>
-            <div className="d-flex px-4">
+            <div className="d-flex px-4 buttons">
               <button
                 type="button"
                 className="button-ext col-5 p-1 my-4 d-flex justify-content-center"
@@ -81,7 +81,12 @@ const CreateAccount = () => {
                 className="button-lgi col-5 p-1 my-4 d-flex justify-content-center"
                 id="button-lgi"
               >
-                <img src={Login} alt="log-in" style={{ width: "20%" }} />{" "}
+                <img
+                  src={Login}
+                  alt="log-in"
+                  style={{ width: "20%" }}
+                  className="img"
+                />{" "}
                 &nbsp; Log In
               </button>
             </div>

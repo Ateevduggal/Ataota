@@ -28,13 +28,13 @@ body {
   border: 2px solid #00ebd7;
   width: 100%;
 }
-.button-ext {
+.button-ext, .button_ext {
   text-align: center;
   border: 2px solid rgb(224, 39, 70);
   background-color: pink;
   font-weight: bold;
 }
-.button-nxt {
+.button-nxt, .button_nxt {
   text-align: center;
   border: 2px solid green;
   background-color: lightgreen;
@@ -55,4 +55,16 @@ body {
     width: 85%;
   }
 }
-
+@media (min-width: 300px) and (max-width: 388px) {
+  .buttons {
+    display: block !important;
+  }
+  .button-ext, .button-lgi{
+    width: 93%;
+    margin-left: 3%;
+    margin-top: -5% !important;
+  }
+  .img{
+    width: 13% !important;
+  }
+}
