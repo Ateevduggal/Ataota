@@ -1,6 +1,6 @@
 import React from "react";
-import Signup from "./assets/Common/SignUpGreen.svg";
-import Back from "./assets/Common/Back.svg";
+import Signup from "../assets/Common/SignUpGreen.svg";
+import Back from "../assets/Common/Back.svg";
 
 const OTP = () => {
   return (

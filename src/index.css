@@ -4,7 +4,7 @@ body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
-  background-color: rgb(151, 106, 106);
+  scroll-behavior: smooth;
 }
 .form {
   border: 2px solid grey;
@@ -28,13 +28,15 @@ body {
   border: 2px solid #00ebd7;
   width: 100%;
 }
-.button-ext, .button_ext {
+.button-ext,
+.button_ext {
   text-align: center;
   border: 2px solid rgb(224, 39, 70);
   background-color: pink;
   font-weight: bold;
 }
-.button-nxt, .button_nxt {
+.button-nxt,
+.button_nxt {
   text-align: center;
   border: 2px solid green;
   background-color: lightgreen;
@@ -59,12 +61,50 @@ body {
   .buttons {
     display: block !important;
   }
-  .button-ext, .button-lgi{
+  .button-ext,
+  .button-lgi {
     width: 93%;
     margin-left: 3%;
     margin-top: -5% !important;
   }
-  .img{
+  .img {
     width: 13% !important;
   }
+}
+/*                    LANDING PAGE                */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap");
+
+.body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+#hero {
+  background-image: linear-gradient(180deg, #4bffcf 16%, #20beb1 46%, #076961);
+  color: black;
+}
+hr {
+  width: 15%;
+  margin: auto;
+}
+a button {
+  border-radius: 24px;
+  transition: all 0.3s ease-in;
+}
+button:hover {
+  background-color: rgb(26, 24, 24) !important;
+  color: white !important;
+}
+.image {
+  padding: 3.8% 0 !important;
+}
+img {
+  border-radius: 34px;
+}
+#banner {
+  background-color: #e5ece4;
+}
+#icons {
+  font-size: 45px;
+}
+.instagram{
+  color: rgb(182, 33, 58);
 }

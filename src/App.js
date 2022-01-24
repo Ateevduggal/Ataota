@@ -1,18 +1,13 @@
-import React from 'react'
-import CreateAccount from './CreateAccount'
-import AccountDetails from './AccountDetails'
-import LogIn from './LogIn'
-import OTP from './OTP'
-
+import React from "react";
+import Form from "./Forms/Form";
+import LandingPage from "./Landing Page/LandingPage";
 const App = () => {
   return (
     <>
-      <CreateAccount />
-      <AccountDetails />
-      <LogIn />
-      <OTP />
+      {/* <Form /> */}
+      <LandingPage />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
