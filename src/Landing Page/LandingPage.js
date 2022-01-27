@@ -3,7 +3,6 @@ import Hero from "./Hero";
 import About from "./About";
 import Services from "./Services";
 import Banner from "./Banner";
-import Top from "./Top";
 import Footer from "./Footer";
 const LandingPage = () => {
   return (
@@ -13,7 +12,6 @@ const LandingPage = () => {
         <About />
         <Services />
         <Banner />
-        <Top />
         <Footer />
       </div>
     </>

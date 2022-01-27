@@ -72,10 +72,10 @@ body {
   }
 }
 /*                    LANDING PAGE                */
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .body {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 #hero {
   background-image: linear-gradient(180deg, #4bffcf 16%, #20beb1 46%, #076961);
@@ -93,8 +93,37 @@ button:hover {
   background-color: rgb(26, 24, 24) !important;
   color: white !important;
 }
+#about {
+  display: none;
+}
+.text_about {
+  background-image: url(./assets/LOGO.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #462323dc;
+  background-blend-mode: multiply;
+  color: white !important;
+  width: 100%;
+  padding: 6% 8% !important;
+  text-align: center;
+}
 .image {
   padding: 3.8% 0 !important;
+}
+#banner-main {
+  display: block;
+}
+#banner-res {
+  display: none;
+  background-image: url(./assets/Common/Boost.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #14193fd2;
+  background-blend-mode: darken;
+  color: white !important;
+}
+.span_banner {
+  color: #00ebd7 !important;
 }
 img {
   border-radius: 34px;
@@ -105,6 +134,173 @@ img {
 #icons {
   font-size: 45px;
 }
-.instagram{
+.instagram {
   color: rgb(182, 33, 58);
+}
+
+@media (min-width: 300px) and (max-width: 575px) {
+  #hero {
+    width: 80%;
+    margin: auto;
+  }
+  #h1_hero {
+    margin-top: 5% !important;
+    padding: 2% !important;
+  }
+  #p_hero {
+    margin: 0 !important;
+    padding-top: 0 !important;
+  }
+  #about,
+  #banner-res {
+    display: block;
+  }
+  #about-main,
+  #banner-main {
+    display: none;
+  }
+  .card {
+    padding: 2% 4% !important;
+  }
+  .space {
+    padding: 0 !important;
+  }
+  .responsive {
+    width: 80% !important;
+  }
+  #p_footer {
+    font-size: 18px !important;
+    padding: 0 !important;
+  }
+  #section1 {
+    display: none;
+  }
+  #section2 {
+    width: 100%;
+  }
+  #banner-res h2 {
+    padding: 5% !important;
+  }
+  #a_footer {
+    margin: 0 3% !important;
+    padding: 2% !important;
+  }
+  #copyright {
+    font-size: 15px !important;
+  }
+  #last {
+    padding: 0 5% !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #hero {
+    width: 80%;
+    margin: auto;
+  }
+  .img_hero {
+    width: 80%;
+    margin: auto;
+  }
+  #h1_hero {
+    margin-top: 5% !important;
+    padding: 2% !important;
+  }
+  #p_hero {
+    margin: 0 !important;
+    padding-top: 0 !important;
+  }
+  .title {
+    font-size: 20px !important;
+    padding: 0 !important;
+  }
+  .img4 {
+    margin-top: 14% !important;
+  }
+  .text {
+    font-size: 15px !important;
+  }
+  #about,
+  #banner-main {
+    display: block;
+  }
+  #about-main,
+  #banner-res {
+    display: none;
+  }
+  #banner-main h2 {
+    font-size: 20px !important;
+  }
+  .card {
+    padding: 2% 4% !important;
+  }
+  .space {
+    padding: 0 !important;
+  }
+  .responsive {
+    width: 100% !important;
+  }
+  #p_footer {
+    font-size: 18px !important;
+    padding: 0 !important;
+  }
+  #a_footer {
+    margin: 0 3% !important;
+    padding: 2% !important;
+  }
+  #copyright {
+    font-size: 15px !important;
+  }
+  #last {
+    padding: 0 5% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #h1_hero {
+    margin-top: 5% !important;
+    padding: 2% !important;
+    font-size: 30px !important;
+  }
+  #p_hero {
+    margin: 0 !important;
+    padding-top: 0 !important;
+  }
+  #about-main .text1{
+    font-size: 15px !important;
+  }
+  .title {
+    font-size: 24px !important;
+    padding: 2% !important;
+  }
+  .text {
+    font-size: 18px !important;
+  }
+  #banner-main h2 {
+    font-size: 20px !important;
+  }
+  .card {
+    padding: 2% 4% !important;
+  }
+  .space {
+    padding: 0 !important;
+  }
+  .responsive {
+    width: 100% !important;
+  }
+  #p_footer {
+    font-size: 18px !important;
+    padding: 0 !important;
+  }
+  #a_footer {
+    margin: 0 3% !important;
+    padding: 2% !important;
+  }
+  #copyright {
+    font-size: 15px !important;
+  }
+  #last {
+    padding: 0 5% !important;
+  }
+  #section1{
+    padding: 2% 4% !important;
+  }
 }
