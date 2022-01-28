@@ -41,7 +41,7 @@ const Footer = () => {
           <div className="w-100 my-4"></div>
           <div className="col-12 text-center" id="last">
             <h3 className="fw-bold fs-3">
-              We're Exited to Help You on Your Journey!
+              We're Excited to Help You on Your Journey!
             </h3>
             <p className="fs-5 mt-3">
               We love our customers, so feel free to visit

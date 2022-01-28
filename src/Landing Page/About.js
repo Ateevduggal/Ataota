@@ -13,16 +13,16 @@ const About = () => {
           </div>
           <div className="col-7 mt-5 px-5 py-2 fs-4 text1">
             <b>
-              Advance Technology Adpotion and Organisation of Technical
-              Assistant
+              Advance Technology Adoption and Organisation of Technical
+              Assistant &nbsp;
             </b>
-            also knows as <b>Ataota</b> is an internet commerse market place
-            where everyone can use the internet to procide an oppertunity to
-            create market at home, and serve customers in digital ways.
+            also known as Ataota is an internet commerce marketplace where
+            everyone can use the internet to provide an opportunity to create a
+            market at home and serve customers in digital ways.
             <br />
             <br />
-            Internet Commerse is the use of the internet for all phases of
-            creating and completing business transactions
+            Internet Commerce is the use of the internet for all phases of
+            creating and completing business transactions.
           </div>
         </div>
         <div className="row mt-5" id="about">
@@ -31,16 +31,16 @@ const About = () => {
           </div>
           <div className="col-12 mt-3 px-5 py-2 fs-4 text_about">
             <b>
-              Advance Technology Adpotion and Organisation of Technical
-              Assistant
+              Advance Technology Adoption and Organisation of Technical
+              Assistant &nbsp;
             </b>
-            also knows as <b>Ataota</b> is an internet commerse market place
-            where everyone can use the internet to procide an oppertunity to
-            create market at home, and serve customers in digital ways.
+            also known as Ataota is an internet commerce marketplace where
+            everyone can use the internet to provide an opportunity to create a
+            market at home and serve customers in digital ways.
             <br />
             <br />
-            Internet Commerse is the use of the internet for all phases of
-            creating and completing business transactions
+            Internet Commerce is the use of the internet for all phases of
+            creating and completing business transactions.
           </div>
         </div>
       </div>

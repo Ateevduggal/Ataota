@@ -15,10 +15,10 @@ export const data = [
   },
   {
     id: "3",
-    title: "Home Dilevery Avaliable, dont worry",
+    title: "Home Delivery Available. Don't worry",
     className: "w-100 py-2 responsive",
     image: "./Images/Bike.jpg",
-    text: "Just place an order and relax, our dilevery partners are coming to your destination",
+    text: "Just place an order and relax, our delivery partners will come to your destination",
   },
   {
     id: "4",
@@ -39,7 +39,7 @@ export const data = [
     title: "Connect with us",
     className: "w-100 image responsive",
     image: "./Images/Party.jpg",
-    text: "Just order placed and relaxed. Our delivery partners are coming to your destination.",
+    text: "Connect with us via our social media networks for the latest update related to our services.",
   },
 ];
 
