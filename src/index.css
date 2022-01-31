@@ -326,6 +326,7 @@ img {
     width: 100% !important;
     padding: 0 8% !important;
     margin-top: 6% !important;
+    text-align: center !important;
   }
   #mission {
     display: block !important;

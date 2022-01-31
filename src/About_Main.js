@@ -12,7 +12,7 @@ const About_Main = () => {
             About Us <hr />
           </div>
           <div className="col-5 text-center about_image">
-            <img src={logo} alt="logo" className="w-75 mt-5" />
+            <img src={logo} alt="logo" className="w-75 mt-4" />
           </div>
           <div className="col-7 mt-5 px-5 py-2 fs-4 text1" id="about-us-text">
             <b>
@@ -30,15 +30,15 @@ const About_Main = () => {
         </div>
         <Services />
         <div className="row mt-5" id="mission">
-          <div className="col-6 text-center text-white pt-4" id="mission-1">
+          <div className="col-6 text-center text-white pt-4 px-4" id="mission-1">
             <h1 className="text-decoration-underline mission-1">Our Mission</h1>
             <p className="fs-4 p-3 mission-text">
               Upgrading Local Commerce to E-Commerce Business and Building
               Relationship withValuable Consumers.
             </p>
           </div>
-          <div className="col-6 text-center text-white pt-5" id="mission-2">
-            <h1 className="text-decoration-underline mission-1">Our Vission</h1>
+          <div className="col-6 text-center text-white pt-5 px-5" id="mission-2">
+            <h1 className="text-decoration-underline mission-1">Our Vision</h1>
             <p className="fs-4 p-3 mission-text">
               Organize all the products and services from the nearby market and
               make it accessable for everyone in digital ways.
