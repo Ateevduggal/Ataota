@@ -16,6 +16,9 @@ const Footer = () => {
             <p className="fs-4 px-5" id="p_footer">
               Panskura Junction, Kanakpur, Panskura, West Bengal, India
             </p>
+            <p className="fw-bold fs-6">
+              GSTN : 19AAVCA3363J1Z3
+            </p>
           </div>
           <div className="col-2"></div>
           <div

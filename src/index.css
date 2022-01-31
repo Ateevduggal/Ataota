@@ -264,7 +264,7 @@ img {
     margin: 0 !important;
     padding-top: 0 !important;
   }
-  #about-main .text1{
+  #about-main .text1 {
     font-size: 15px !important;
   }
   .title {
@@ -300,7 +300,53 @@ img {
   #last {
     padding: 0 5% !important;
   }
-  #section1{
+  #section1 {
     padding: 2% 4% !important;
+  }
+}
+
+/*                        ABOUT US PAGE                 */
+
+#mission {
+  background-image: url(./assets/Common/banner.webp);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.774);
+  background-blend-mode: darken;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 300px) and (max-width: 575px) {
+  .about_image {
+    display: none;
+  }
+  #about-us-text {
+    width: 100% !important;
+    padding: 0 8% !important;
+    margin-top: 6% !important;
+  }
+  #mission {
+    display: block !important;
+    height: 420px !important;
+  }
+  #mission-1,
+  #mission-2 {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  #mission-1 {
+    padding-top: 7% !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 800px) {
+  .about_image {
+    display: none;
+  }
+  #about-us-text {
+    width: 100% !important;
+    padding: 0 8% !important;
+    margin-top: 6% !important;
   }
 }
