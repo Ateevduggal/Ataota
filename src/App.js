@@ -5,9 +5,9 @@ import About_Main from "./About_Main"
 const App = () => {
   return (
     <>
-      <Form />
-      {/* <LandingPage /> */}
-      {/* <About_Main /> */}
+      {/* <Form /> */}
+      <LandingPage />
+      <About_Main />
     </>
   );
 };

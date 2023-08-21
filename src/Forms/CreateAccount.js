@@ -86,7 +86,7 @@ const CreateAccount = () => {
                   alt="log-in"
                   style={{ width: "20%" }}
                   className="img"
-                />{" "}
+                />
                 &nbsp; Log In
               </button>
             </div>
